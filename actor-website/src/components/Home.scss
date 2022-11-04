@@ -35,3 +35,10 @@
   margin: 10px;
   height: 300px;
 }
+
+.video1 {
+  object-fit: cover;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+}
