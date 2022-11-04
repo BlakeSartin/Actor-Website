@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.home-photo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+  width: 90%;
+  height: 200px;
+  margin: 10px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  width: 90%;
+  margin: 10px;
+  height: 150px;
+}
+
+.news-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+  width: 90%;
+  margin: 10px;
+  height: 300px;
+}
