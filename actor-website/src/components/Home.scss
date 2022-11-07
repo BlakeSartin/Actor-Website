@@ -11,8 +11,8 @@
 .home-photo1-container {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  background-color: red;
+  flex-direction:row;
+  background-color: rgb(253, 211, 217);
   width: 100%;
   height: 270px;
 }
@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: green;
+  background-color: rgb(253, 211, 217);
   color: white;
   width: 100%;
   height: 270px;
@@ -31,17 +31,23 @@
 .home-photo3-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  background-color: blue;
+  flex-direction:row-reverse;
+  background-color: rgb(253, 211, 217);
   color: white;
   width: 100%;
   height: 270px;
   font-family: 'Playfair Display', serif;
 }
 
-.video1 {
-  object-fit: cover;
-  pointer-events: none;
-  width: 100vw;
-  height: 30vh;
+.home-photo1 {
+  width: 220px;
+  height: 270px;
+}
+.home-photo2 {
+  width: 220px;
+  height: 270px;
+}
+.home-photo3 {
+  width: 220px;
+  height: 270px;
 }
