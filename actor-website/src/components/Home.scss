@@ -9,7 +9,7 @@
 
 .home-photo-container {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   height: 100vh;
@@ -20,47 +20,51 @@
 .home-photo1 {
   height: 270px;
   margin-bottom: 400px;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  
-@keyframes fadeInAnimation {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
-     }
-}
+      opacity: 1;
+    }
+  }
 }
 .home-photo2 {
   height: 270px;
   animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
+  animation-iteration-count: 1;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
+    0%{
+      opacity: 0;
+      background-image: none;
     }
     100% {
-        opacity: 1;
-     }
-}
+      opacity: 1;
+    }
+  }
 }
 .home-photo3 {
   height: 270px;
   margin-top: 400px;
   animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  
-@keyframes fadeInAnimation {
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
-     }
-}
+      opacity: 1;
+    }
+  }
 }
