@@ -13,14 +13,14 @@
   align-items: center;
   flex-direction: row;
   height: 100vh;
-  width: 100vh;
-  margin-right: 500px;
+  width: 50vh;
 }
 
 .home-photo1 {
   height: 270px;
   margin-bottom: 400px;
-  margin-right: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 1s;
@@ -37,7 +37,7 @@
 }
 .home-photo2 {
   height: 270px;
-  margin-right: 10px;
+  margin-right: 2em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 2.5s;
@@ -72,5 +72,69 @@
 }
 
 .home-title-container {
-  
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+margin-top: 7em;
+}
+
+.actor {
+  margin-bottom: 5em;
+  margin-right: 16em;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.stunt-performer {
+  margin-bottom: 5em;
+  margin-right: 8em;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
+    0%{
+      opacity: 0;
+      background-image: none;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.social-media {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
