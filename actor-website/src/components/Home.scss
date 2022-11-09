@@ -13,7 +13,7 @@
   align-items: center;
   flex-direction: row;
   height: 100vh;
-  width: 80vh;
+  width: 100vh;
 }
 
 .home-photo1 {
@@ -82,7 +82,7 @@ margin-top: 7em;
 
 .actor {
   margin-top: 2em;
-  margin-right: 50em;
+  margin-right: 40em;
   font-family: 'Playfair Display', serif;
   color: white;
   position: fixed;
@@ -103,7 +103,7 @@ margin-top: 7em;
 
 .stunt-performer {
   margin-top: 8em;
-  margin-right: 35em;
+  margin-right: 22em;
   font-family: 'Playfair Display', serif;
   color: white;
   position: fixed;
@@ -127,8 +127,9 @@ margin-top: 7em;
   font-family: 'Playfair Display', serif;
   color: white;
   position: fixed;
+  width: 10vh;
   margin-top: 15em;
-  margin-right: 20em;
+  margin-right: 12em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 4s;
@@ -144,7 +145,24 @@ margin-top: 7em;
   }
 }
 
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-right: 4em;
+  border-width: 5px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: white;
+  padding: 10px;
+}
 
+.insta-title {
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
 
 .instademo {
   height: 700px;

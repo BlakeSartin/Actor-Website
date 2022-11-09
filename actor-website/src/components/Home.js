@@ -15,6 +15,7 @@ export default function Home() {
         <h1 className="social-media">Social Media Coordinator</h1>
         </div>
         <div className="instagram-container">
+          <h2 className="insta-title">Insta</h2>
           <img className="instademo" src="../photos/instademo.JPG"></img>
           </div>
     </div>
