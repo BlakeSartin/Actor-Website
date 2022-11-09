@@ -13,7 +13,7 @@
   align-items: center;
   flex-direction: row;
   height: 100vh;
-  width: 50vh;
+  width: 80vh;
 }
 
 .home-photo1 {
@@ -81,10 +81,11 @@ margin-top: 7em;
 }
 
 .actor {
-  margin-bottom: 5em;
-  margin-right: 16em;
+  margin-top: 2em;
+  margin-right: 50em;
   font-family: 'Playfair Display', serif;
   color: white;
+  position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 1s;
@@ -101,10 +102,11 @@ margin-top: 7em;
 }
 
 .stunt-performer {
-  margin-bottom: 5em;
-  margin-right: 8em;
+  margin-top: 8em;
+  margin-right: 35em;
   font-family: 'Playfair Display', serif;
   color: white;
+  position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 2.5s;
@@ -124,6 +126,9 @@ margin-top: 7em;
 .social-media {
   font-family: 'Playfair Display', serif;
   color: white;
+  position: fixed;
+  margin-top: 15em;
+  margin-right: 20em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 4s;
