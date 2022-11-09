@@ -5,7 +5,7 @@ export default function Topbar() {
   return (
     <nav className="nav">
       <ul className="font-link">
-        <h1 className="name">Katrina Teitz</h1>
+      <h1 className="name">Katrina Teitz</h1>
         <li>
           <a href="/Home">Home</a>
         </li>

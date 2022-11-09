@@ -5,6 +5,9 @@
   color: white;
   background-color: rgb(253, 211, 217);
   height: 50px;
+  border-width: 5px;
+  border: 2px solid;
+  border-color: white;
 }
 
 .nav ul {
@@ -20,6 +23,8 @@
   display: flex;
   align-items: center;
   color: inherit;
+  font-size: medium;
+  margin-right: 5em;
 }
 
 .nav a:visited {
@@ -32,4 +37,6 @@
   transition-duration: 0.5s;
   color: lightblue !important;
 }
+
+
 
