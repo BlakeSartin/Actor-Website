@@ -1,3 +1,5 @@
+
+
 .nav {
   display: flex;
   justify-content: center;
@@ -36,6 +38,12 @@
   transform: scale(1.5);
   transition-duration: 0.5s;
   color: lightblue !important;
+}
+
+.name {
+  font-family: 'Great Vibes', cursive;
+  font-size: xx-large;
+  margin-right: 5em;
 }
 
 

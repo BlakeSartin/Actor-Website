@@ -19,8 +19,9 @@
 .home-photo1 {
   height: 270px;
   margin-bottom: 400px;
-  margin-right: 2em;
+  margin-right: 1em;
   margin-left: 2em;
+  box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 1s;
@@ -37,7 +38,8 @@
 }
 .home-photo2 {
   height: 270px;
-  margin-right: 2em;
+  margin-right: 1em;
+  box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 2.5s;
@@ -56,6 +58,7 @@
 .home-photo3 {
   height: 270px;
   margin-top: 400px;
+  box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-delay: 4s;
   animation-iteration-count: 1;

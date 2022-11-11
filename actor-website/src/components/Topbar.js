@@ -4,8 +4,8 @@ import "./Topbar.scss";
 export default function Topbar() {
   return (
     <nav className="nav">
+      <h1 className="name" >Katrina Teitz</h1>
       <ul className="font-link">
-      <h1 className="name">Katrina Teitz</h1>
         <li>
           <a href="/Home">Home</a>
         </li>
