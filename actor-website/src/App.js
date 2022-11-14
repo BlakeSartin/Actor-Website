@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Home from "./components/Home";
-import Credits from "./components/Credits";
+import News from "./components/News";
 import Reels from "./components/Reels";
 import Pictures from "./components/Pictures";
 import Contact from "./components/Contact";
@@ -18,8 +18,8 @@ function App() {
     case "/about":
       component = <About />;
       break;
-    case "/credits":
-      component = <Credits />;
+    case "/news":
+      component = <News />;
       break;
     case "/reels":
       component = <Reels />;

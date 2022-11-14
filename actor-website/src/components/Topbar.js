@@ -13,7 +13,7 @@ export default function Topbar() {
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/credits">Credits</a>
+          <a href="/news">News</a>
         </li>
         <li>
           <a href="/reels">Reels</a>

@@ -8,21 +8,29 @@
   overflow: hidden;
 }
 
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 280px;
+}
+
 .button-left {
   height: 40px;
   width: 60px;
-  position: absolute;
   cursor: pointer;
   background-color: green;
+  margin-right: 50px;
 }
 
 .button-right {
   height: 40px;
   width: 60px;
-  position: absolute;
   cursor: pointer;
   right: 300px;
   background-color: blue;
+  margin-left: 50px;
 }
 
 .slider {
@@ -54,9 +62,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 5px;
-  border: 2px solid;
-  border-color: black;
 }
 
 .left {
@@ -76,12 +81,15 @@
 }
 
 .desc-container {
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-color: red;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 60px;
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
 }
 
 .right {
