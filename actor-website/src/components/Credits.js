@@ -9,25 +9,25 @@ export default function Credits() {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/photo1.JPG",
+      img: "../photos/Riverdale.jpg",
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/photo2.jpg",
+      img: "../photos/Riverdale.jpg",
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/photo3.jpg",
+      img: "../photos/Riverdale.jpg",
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/photo3.jpg",
+      img: "../photos/Riverdale.jpg",
     },
   ];
 
@@ -58,8 +58,8 @@ export default function Credits() {
           </div>
         ))}
       </div>
-      <button className="button-left" onClick={()=>handleClick("left")}/>
-      <button className="button-right" onClick={()=>handleClick()}/>
+      <button className="button-left" onClick={()=>handleClick("left")}>Left</button>
+      <button className="button-right" onClick={()=>handleClick()}>Right</button>
     </div>
   );
 }
