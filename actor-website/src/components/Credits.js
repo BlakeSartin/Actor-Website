@@ -9,25 +9,33 @@ export default function Credits() {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/Riverdale.jpg",
+      img1: "../photos/Riverdale.jpg",
+      img2:"../photos/Riverdale2.jpg",
+      img3:"../photos/photo2.jpg"
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/Riverdale.jpg",
+      img1: "../photos/Riverdale.jpg",
+      img2:"../photos/Riverdale2.jpg",
+      img3:"../photos/photo2.jpg"
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/Riverdale.jpg",
+      iimg1: "../photos/Riverdale.jpg",
+      img2:"../photos/Riverdale2.jpg",
+      img3:"../photos/photo2.jpg"
     },
     {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img: "../photos/Riverdale.jpg",
+      img1: "../photos/Riverdale.jpg",
+      img2:"../photos/Riverdale2.jpg",
+      img3:"../photos/photo2.jpg"
     },
   ];
 
@@ -52,7 +60,9 @@ export default function Credits() {
                 </div>
               </div>
               <div className="right">
-                <img src={d.img} alt="" />
+              <img className="img3" src={d.img3} alt="" />
+                <img className="img1" src={d.img1} alt="" />
+                <img className="img2" src={d.img2} alt="" />
               </div>
             </div>
           </div>
