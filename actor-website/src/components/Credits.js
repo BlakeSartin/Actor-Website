@@ -58,6 +58,8 @@ export default function Credits() {
           </div>
         ))}
       </div>
+      <button className="button-left" onClick={()=>handleClick("left")}/>
+      <button className="button-right" onClick={()=>handleClick()}/>
     </div>
   );
 }
