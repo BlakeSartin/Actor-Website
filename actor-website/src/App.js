@@ -12,6 +12,8 @@ function App() {
   switch (window.location.pathname) {
     case "/":
       component = <Home />;
+    case "/home":
+      component = <Home />;
       break;
     case "/about":
       component = <About />;
