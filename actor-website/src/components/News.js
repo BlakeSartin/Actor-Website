@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./News.scss";
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 export default function News() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -69,12 +71,8 @@ export default function News() {
         ))}
       </div>
       <div className="button-container">
-      <button className="button-left" onClick={() => handleClick("left")}>
-        Left
-      </button>
-      <button className="button-right" onClick={() => handleClick()}>
-        Right
-      </button>
+      <ArrowCircleLeftIcon className="button-left" onClick={() => handleClick("left")}/>
+      <ArrowCircleRightIcon className="button-right" onClick={() => handleClick()}/>
       </div>
     </div>
   );

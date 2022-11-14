@@ -8,29 +8,24 @@
   overflow: hidden;
 }
 
-.button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  margin-top: 280px;
-}
+
 
 .button-left {
-  height: 40px;
-  width: 60px;
   cursor: pointer;
-  background-color: green;
-  margin-right: 50px;
+  font-size: 3rem !important;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: -820px;
+  color:  rgb(253, 211, 217);
 }
 
 .button-right {
-  height: 40px;
-  width: 60px;
   cursor: pointer;
-  right: 300px;
-  background-color: blue;
-  margin-left: 50px;
+  font-size: 3rem !important;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 770px;
+  color:  rgb(253, 211, 217);
 }
 
 .slider {
