@@ -24,4 +24,7 @@ To Visit App:
 
 localhost:3000
 
+# How To Use
+The majority of the website is navigated using the topbar present on every page. 
+
 # Images
