@@ -16,7 +16,7 @@
   position: absolute;
   margin-top: 120px;
   margin-left: -820px;
-  color:  rgb(253, 211, 217);
+  color:  red;
 }
 
 .button-right {
@@ -25,15 +25,14 @@
   position: absolute;
   margin-top: 120px;
   margin-left: 770px;
-  color:  rgb(253, 211, 217);
+  color:  red;
 }
 
 .slider {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   position: absolute;
   left: 0;
@@ -41,8 +40,8 @@
 }
 
 .credits-img-container {
-  width: 100vw;
-  height: 30vh;
+  width: 20vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -57,11 +56,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .left {
-  flex: 3;
-  height: 57vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,15 +67,13 @@
 
 .left-container {
   width: 100%;
-  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .desc-container {
-  width: 80%;
-  height: 100%;
+  width: 60%;
   background-color: white;
   display: flex;
   align-items: center;
@@ -88,19 +84,18 @@
 }
 
 .right {
-  flex: 8;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .img1 {
-  width: 500px;
+  width: 300px;
 }
 .img2 {
-  width: 500px;
+  width: 300px;
 }
 .img3 {
   width: 180px;

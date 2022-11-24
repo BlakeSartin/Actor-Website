@@ -42,7 +42,7 @@ export default function News() {
   ];
 
   const handleClick = (direction) => {
-    direction === "left"
+    direction === "up"
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length - 1)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
@@ -51,7 +51,7 @@ export default function News() {
     <div className="credits-container">
       <div
         className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        style={{ transform: `translateY(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
           <div className="credits-img-container">
@@ -71,7 +71,7 @@ export default function News() {
         ))}
       </div>
       <div className="button-container">
-      <ArrowCircleLeftIcon className="button-left" onClick={() => handleClick("left")}/>
+      <ArrowCircleLeftIcon className="button-left" onClick={() => handleClick("up")}/>
       <ArrowCircleRightIcon className="button-right" onClick={() => handleClick()}/>
       </div>
     </div>
