@@ -12,12 +12,12 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  height: 100vh;
+  height: 90vh;
   width: 100vh;
 }
 
 .home-photo1 {
-  height: 270px;
+  height: 350px;
   margin-bottom: 400px;
   margin-right: 1em;
   margin-left: 2em;
@@ -37,7 +37,7 @@
   }
 }
 .home-photo2 {
-  height: 270px;
+  height: 350px;
   margin-right: 1em;
   box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
@@ -56,7 +56,7 @@
   }
 }
 .home-photo3 {
-  height: 270px;
+  height: 350px;
   margin-top: 400px;
   box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
@@ -84,8 +84,8 @@ margin-top: 7em;
 }
 
 .actor {
-  margin-top: 3.5em;
-  margin-right: 40em;
+  margin-top: 2em;
+  margin-right: 42em;
   font-family: 'Poiret One', cursive;
   color: white;
   position: fixed;
@@ -105,7 +105,7 @@ margin-top: 7em;
 }
 
 .stunt-performer {
-  margin-top: 9.5em;
+  margin-top: 8em;
   margin-right: 24em;
   font-family: 'Poiret One', cursive;
   color: white;
@@ -131,8 +131,8 @@ margin-top: 7em;
   color: white;
   position: fixed;
   width: 10vh;
-  margin-top: 16.5em;
-  margin-right: 12em;
+  margin-top: 14.5em;
+  margin-right: 8em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 4s;
