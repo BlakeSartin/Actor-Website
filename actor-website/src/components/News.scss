@@ -1,21 +1,14 @@
 .credits-container {
-  background-color: rgb(253, 211, 217);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
   position: relative;
-  height: 100vh;
   overflow: hidden;
+  height: 100vh;
+  width: 40vh;
 }
-
-
 
 .button-left {
   cursor: pointer;
   font-size: 3rem !important;
   position: absolute;
-  margin-top: 120px;
-  margin-left: -820px;
   color:  red;
 }
 
@@ -23,8 +16,6 @@
   cursor: pointer;
   font-size: 3rem !important;
   position: absolute;
-  margin-top: 120px;
-  margin-left: 770px;
   color:  red;
 }
 
@@ -35,7 +26,6 @@
   flex-direction: column;
   display: flex;
   position: absolute;
-  left: 0;
   transition: all 1s ease-out;
 }
 
@@ -55,7 +45,7 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 

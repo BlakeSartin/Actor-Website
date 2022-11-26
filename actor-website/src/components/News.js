@@ -69,10 +69,10 @@ export default function News() {
             </div>
           </div>
         ))}
-      </div>
-      <div className="button-container">
+        <div className="button-container">
       <ArrowCircleLeftIcon className="button-left" onClick={() => handleClick("up")}/>
       <ArrowCircleRightIcon className="button-right" onClick={() => handleClick()}/>
+      </div>
       </div>
     </div>
   );

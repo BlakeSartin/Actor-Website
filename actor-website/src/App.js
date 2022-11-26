@@ -1,7 +1,6 @@
 import "./App.css";
 import About from "./components/About";
 import Home from "./components/Home";
-import News from "./components/News";
 import Reels from "./components/Reels";
 import Pictures from "./components/Pictures";
 import Contact from "./components/Contact";
@@ -17,9 +16,6 @@ function App() {
       break;
     case "/about":
       component = <About />;
-      break;
-    case "/news":
-      component = <News />;
       break;
     case "/reels":
       component = <Reels />;
