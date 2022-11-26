@@ -5,19 +5,7 @@
   width: 40vh;
 }
 
-.button-left {
-  cursor: pointer;
-  font-size: 3rem !important;
-  position: absolute;
-  color:  red;
-}
 
-.button-right {
-  cursor: pointer;
-  font-size: 3rem !important;
-  position: absolute;
-  color:  red;
-}
 
 .slider {
   display: flex;
@@ -89,4 +77,18 @@
 }
 .img3 {
   width: 180px;
+}
+
+
+
+.button-up {
+  cursor: pointer;
+  font-size: 3rem !important;
+  color:  red;
+}
+
+.button-down {
+  cursor: pointer;
+  font-size: 3rem !important;
+  color:  red;
 }

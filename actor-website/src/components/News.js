@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./News.scss";
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleUp";
+import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleDown";
 
 export default function News() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -55,6 +55,10 @@ export default function News() {
       >
         {data.map((d) => (
           <div className="credits-img-container">
+             <ArrowCircleUpIcon
+              className="button-up"
+              onClick={() => handleClick("up")}
+            />
             <div className="item">
               <div className="left">
                 <div className="left-container">
@@ -67,12 +71,12 @@ export default function News() {
                 <img className="img2" src={d.img2} alt="" />
               </div>
             </div>
+            <ArrowCircleDownIcon
+              className="button-down"
+              onClick={() => handleClick()}
+            />
           </div>
         ))}
-        <div className="button-container">
-      <ArrowCircleLeftIcon className="button-left" onClick={() => handleClick("up")}/>
-      <ArrowCircleRightIcon className="button-right" onClick={() => handleClick()}/>
-      </div>
       </div>
     </div>
   );
