@@ -1,6 +1,6 @@
 .home-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: rgb(253, 211, 217);
@@ -14,6 +14,7 @@
   flex-direction: row;
   height: 90vh;
   width: 100vh;
+  margin-top: 50px;
 }
 
 .home-photo1 {
@@ -85,7 +86,7 @@ margin-top: 7em;
 
 .actor {
   margin-top: 2em;
-  margin-right: 42em;
+  margin-right: 43em;
   font-family: 'Poiret One', cursive;
   color: white;
   position: fixed;

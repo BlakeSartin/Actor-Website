@@ -51,15 +51,15 @@ export default function News() {
     <div className="credits-container">
       <div
         className="slider"
-        style={{ transform: `translateY(-${currentSlide * 100}vw)` }}
+        style={{ transform: `translateY(-${currentSlide * 52.5}vw)` }}
       >
         {data.map((d) => (
           <div className="credits-img-container">
-             <ArrowCircleUpIcon
+            <div className="item">
+            <ArrowCircleDownIcon
               className="button-up"
               onClick={() => handleClick("up")}
             />
-            <div className="item">
               <div className="left">
                 <div className="left-container">
                   <div className="desc-container">{d.desc}</div>
@@ -70,11 +70,11 @@ export default function News() {
                 <img className="img1" src={d.img1} alt="" />
                 <img className="img2" src={d.img2} alt="" />
               </div>
-            </div>
-            <ArrowCircleDownIcon
+              <ArrowCircleUpIcon
               className="button-down"
               onClick={() => handleClick()}
             />
+            </div>
           </div>
         ))}
       </div>
