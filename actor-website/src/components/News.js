@@ -51,7 +51,7 @@ export default function News() {
     <div className="credits-container">
       <div
         className="slider"
-        style={{ transform: `translateY(-${currentSlide * 52.5}vw)` }}
+        style={{ transform: `translateY(-${currentSlide * 51}vw)` }}
       >
         {data.map((d) => (
           <div className="credits-img-container">
