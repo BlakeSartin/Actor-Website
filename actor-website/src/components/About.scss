@@ -15,10 +15,14 @@
   margin: 1em;
 }
 
-.info-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 1em;
+.about-title {
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+.bio {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
 }
