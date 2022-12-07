@@ -13,14 +13,18 @@ export default function Contact() {
    }
 
   return (
-    <div className="wrapper">
-      <h1>How About Them Apples</h1>
+    <div className="contact-container">
+      <h1>Contact Me Anytime!</h1>
       {submitting && <div>Submtting Form...</div>}
       <form onSubmit={handleSubmit}>
         <fieldset>
           <label>
             <p>Name</p>
             <input name="name" />
+            <p>Email</p>
+            <input email="email"/>
+            <p>Message</p>
+            <input message="message"/>
           </label>
         </fieldset>
         <button type="submit">Submit</button>
