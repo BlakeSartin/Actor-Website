@@ -1,0 +1,22 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(253, 211, 217);
+}
+
+.contact-title {
+  font-family: 'Poiret One', cursive;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 90vh;
+}

@@ -14,20 +14,20 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
-      <h1>Contact Me Anytime!</h1>
       {submitting && <div>Submtting Form...</div>}
       <form onSubmit={handleSubmit}>
         <fieldset>
-          <label>
-            <p>Name</p>
+          <label className="contact-form">
+          <h1 className="contact-title">Contact Me Anytime!</h1>
+            <p className="contact-form-p">Name</p>
             <input name="name" />
-            <p>Email</p>
+            <p className="contact-form-p">Email</p>
             <input email="email"/>
-            <p>Message</p>
+            <p className="contact-form-p">Message</p>
             <input message="message"/>
+            <button type="submit">Submit</button>
           </label>
         </fieldset>
-        <button type="submit">Submit</button>
       </form>
     </div>
   );
