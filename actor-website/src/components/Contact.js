@@ -15,9 +15,9 @@ export default function Contact() {
   return (
     <div className="contact-container">
       {submitting && <div>Submtting Form...</div>}
-      <form onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit}>
         <fieldset>
-          <label className="contact-form">
+          <label className="contact-label">
           <h1 className="contact-title">Contact Me Anytime!</h1>
             <p className="contact-form-p">Name</p>
             <input name="name" />

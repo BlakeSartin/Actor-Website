@@ -7,16 +7,23 @@
   background-color: rgb(253, 211, 217);
 }
 
+
 .contact-title {
   font-family: 'Poiret One', cursive;
   color: white;
 }
 
-.contact-form {
+.contact-label {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 50vh;
   width: 90vh;
+}
+
+.contact-form-p {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: larger;
 }
