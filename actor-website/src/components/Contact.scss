@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 94vh;
   background-color: rgb(253, 211, 217);
 }
 
@@ -33,16 +33,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  width: 100vh;
+  position: absolute;
 }
 
 .contact-photo {
-  height: 600px;
+  height: 430px;
   position: absolute;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
+  margin-left: 76.5em;
 }
 
 .contact-photo2 {
-  height: 600px;
+  height: 430px;
   position: absolute;
-  transform: rotate(270deg);
+  transform: rotate(90deg);
+  margin-right: 76.5em;
 }
