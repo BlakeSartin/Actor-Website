@@ -27,3 +27,22 @@
   font-family: 'Poiret One', cursive;
   font-size: larger;
 }
+
+.picture-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contact-photo {
+  height: 600px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+.contact-photo2 {
+  height: 600px;
+  position: absolute;
+  transform: rotate(270deg);
+}
