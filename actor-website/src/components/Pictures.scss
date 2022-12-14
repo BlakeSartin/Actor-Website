@@ -1,7 +1,7 @@
 .pictures-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
   height: 100vh;
   background-color: rgb(253, 211, 217);
@@ -24,4 +24,24 @@
   color: white;
   font-family: 'Poiret One', cursive;
   padding: 2em;
+}
+
+.pic-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 30em;
+  background-color:rgb(253, 211, 217) ;
+}
+
+.pic-container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 57em;
+  background-color:rgb(253, 211, 217) ;
 }
