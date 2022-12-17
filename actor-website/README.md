@@ -25,6 +25,6 @@ To Visit App:
 localhost:3000
 
 # How To Use
-The majority of the website is navigated using the topbar present on every page. 
+The majority of the website is navigated using the topbar present on every page. The news component uses buttons to navigate, as well as a timer to cycle through automatically.
 
 # Images
