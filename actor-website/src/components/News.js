@@ -27,7 +27,7 @@ export default function News() {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      iimg1: "../photos/Riverdale.jpg",
+      img1: "../photos/Riverdale.jpg",
       img2: "../photos/Riverdale2.jpg",
       img3: "../photos/photo2.jpg",
     },
@@ -53,15 +53,11 @@ export default function News() {
     <div className="credits-container">
       <div
         className="slider"
-        style={{ transform: `translateY(-${currentSlide * 51}vw)` }}
+        style={{ transform: `translateY(-${currentSlide * 50}vw)` }}
       >
         {data.map((d) => (
           <div className="credits-img-container">
             <div className="item">
-            <ArrowCircleDownIcon
-              className="button-up"
-              onClick={() => handleClick("up")}
-            />
               <div className="left">
                 <div className="left-container">
                   <div className="desc-container">{d.desc}</div>
@@ -72,10 +68,6 @@ export default function News() {
                 <img className="img1" src={d.img1} alt="" />
                 <img className="img2" src={d.img2} alt="" />
               </div>
-              <ArrowCircleUpIcon
-              className="button-down"
-              onClick={() => handleClick()}
-            />
             </div>
           </div>
         ))}
