@@ -47,6 +47,8 @@ export default function News() {
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
+  setInterval(handleClick, 5000);
+
   return (
     <div className="credits-container">
       <div
