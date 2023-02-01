@@ -11,8 +11,8 @@ export default function News() {
       id: "1",
       title: "TV Show",
       desc: "This is a description of a tv show that Katrina Teitz has starred in!",
-      img1: "../photos/Riverdale.jpg",
-      img2: "../photos/Riverdale2.jpg",
+      img1: "../photos/kill_the_ripper.jpg",
+      img2: "../photos/kill_the_ripper2.jpg",
       img3: "../photos/photo2.jpg",
     },
     {

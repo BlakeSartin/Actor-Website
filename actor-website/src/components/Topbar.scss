@@ -3,10 +3,11 @@
 .nav {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   color: white;
   background-color: rgb(253, 211, 217);
-  height: 50px;
+  height: 100%;
+  position: absolute;
 }
 
 .nav ul {
