@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  background-color: rgb(253, 211, 217);
+  background-image: url("../../public/photos/rainbow.png");
   height: 100vh;
 }
 
@@ -87,7 +87,7 @@ margin-left: 5em;
   margin-top: 1em;
   margin-right: 43em;
   font-family: 'Poiret One', cursive;
-  color: white;
+  color: black;
   position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -108,7 +108,7 @@ margin-left: 5em;
   margin-top: 7em;
   margin-right: 24em;
   font-family: 'Poiret One', cursive;
-  color: white;
+  color: black;
   position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -128,7 +128,7 @@ margin-left: 5em;
 
 .social-media {
   font-family: 'Poiret One', cursive;
-  color: white;
+  color: black;
   position: fixed;
   width: 10vh;
   margin-top: 14.5em;
@@ -148,17 +148,24 @@ margin-left: 5em;
   }
 }
 
-.home-photo4 {
-  margin-top: 25em;
-  height: 400px;
-  position: absolute;
-  transform: rotate(180deg);
+
+
+
+.text_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: fit-content;
+  margin-top: 10em;
 }
-.home-photo5 {
-  margin-top: 5em;
-  margin-left: 61em;
-  height: 250px;
-  position: absolute;
-  transform: rotate(130deg);
+
+.home_text {
+  color: black;
+  position: fixed;
+  margin-top: 20em;
+  margin-right: 3em;
+  font-family: 'Poiret One', cursive;
+  font-size: x-large;
 }
 
