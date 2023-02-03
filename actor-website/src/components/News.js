@@ -47,7 +47,7 @@ export default function News() {
   }
 
 
-  setInterval(handleClick, 5000)
+  //setInterval(handleClick, 5000)
 
   return (
     <div className="credits-container">
