@@ -42,10 +42,10 @@ export default function News() {
   ];
 
   const handleClick = (direction) => {
-    direction === "up"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length - 1)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
-  };
+    direction === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide -1 : data.length-1) : 
+    setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
+  }
+
 
   setInterval(handleClick, 5000)
 
@@ -53,7 +53,7 @@ export default function News() {
     <div className="credits-container">
       <div
         className="slider"
-        style={{ transform: `translateY(-${currentSlide * 50}vw)` }}
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
           <div className="credits-img-container">
@@ -64,7 +64,6 @@ export default function News() {
                 </div>
               </div>
               <div className="right">
-                <img className="img3" src={d.img3} alt="" />
                 <img className="img1" src={d.img1} alt="" />
                 <img className="img2" src={d.img2} alt="" />
               </div>
