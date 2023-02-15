@@ -6,9 +6,10 @@ export default function Pictures() {
   return (
     <div className="pictures-container">
       <div className="gallery_container">
-        <img
+        
+          <img
           className="pictures_photo1"
-          src="../photos/KatrinaTeitz(1).jpeg"
+          src="../photos/KatrinaTeitz(2).jpeg"
         ></img>
         <img className="pictures_photo2" src="../photos/5.png"></img>
         <img className="pictures_photo3" src="../photos/File_001.png"></img>
@@ -23,7 +24,7 @@ export default function Pictures() {
         <img className="pictures_photo6" src="../photos/bdt_0004.jpg"></img>
         <img
           className="pictures_photo7"
-          src="../photos/KatrinaTeitz(2).jpeg"
+          src="../photos/KatrinaTeitz_Photo (1).jpg"
         ></img>
         <img
           className="pictures_photo8"
