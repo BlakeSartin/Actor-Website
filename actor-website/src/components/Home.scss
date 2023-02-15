@@ -4,6 +4,7 @@
   flex-direction: row;
   background-image: url("../../public/photos/rainbow.png");
   height: 100vh;
+  width: 100vw;
 }
 
 .home-photo-container {
@@ -13,15 +14,13 @@
   flex-direction: row;
   height: fit-content;
   width: 100vh;
-  margin-top: 6em;
-  margin-left: 10em;
+  margin-top: 4em;
+  margin-left: 3em;
 }
 
 .home-photo1 {
   height: 350px;
-  margin-bottom: 400px;
-  margin-right: 1em;
-  margin-left: 2em;
+  margin-bottom: 350px;
   box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -39,7 +38,6 @@
 }
 .home-photo2 {
   height: 350px;
-  margin-right: 1em;
   box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -58,7 +56,7 @@
 }
 .home-photo3 {
   height: 350px;
-  margin-top: 400px;
+  margin-top: 350px;
   box-shadow: 5px 10px #888888;
   animation: fadeInAnimation ease 3s;
   animation-delay: 4s;
@@ -75,24 +73,20 @@
   }
 }
 
-.home-title-container {
-display: flex;
-justify-content: flex-start;
-align-items: center;
+.home-title-container {margin-top: 5em;
 flex-direction: column;
 margin-top: 12em;
 }
 
 .actor {
-  margin-top: 4em;
-  margin-right: 56em;
   font-family: 'Poiret One', cursive;
   color: black;
-  position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-fill-mode: both;
+  margin-bottom: 5em;
+  margin-right: .5em;
 
   @keyframes fadeInAnimation {
     0% {
@@ -106,14 +100,14 @@ margin-top: 12em;
 
 .stunt-performer {
   margin-top: 10em;
-  margin-right: 42em;
   font-family: 'Poiret One', cursive;
   color: black;
-  position: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 2.5s;
   animation-fill-mode: both;
+  margin-bottom: 5em;
+  margin-right: .5em;
 
   @keyframes fadeInAnimation {
     0%{
@@ -129,14 +123,13 @@ margin-top: 12em;
 .social-media {
   font-family: 'Poiret One', cursive;
   color: black;
-  position: fixed;
   width: 10vh;
   margin-top: 16em;
-  margin-right: 30em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-delay: 4s;
   animation-fill-mode: both;
+  margin-bottom: 5em;
 
   @keyframes fadeInAnimation {
     0% {
@@ -162,9 +155,7 @@ margin-top: 12em;
 
 .home_text {
   color: black;
-  position: fixed;
-  margin-top: 25em;
-  margin-left: 4em;
+  margin-left: 10em;
   border: solid 2px;
   border-radius: 1em;
   border-color: black;

@@ -5,6 +5,7 @@ import Reels from "./components/Reels";
 import Pictures from "./components/Pictures";
 import Contact from "./components/Contact";
 import Topbar from "./components/Topbar";
+import Footer from "./components/Footer";
 
 function App() {
   let component;
@@ -31,6 +32,7 @@ function App() {
     <div>
       <Topbar />
       {component}
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color:white;
+  height: 60px;
+  position: absolute;
+  width: 100vw;
+}
+
+.quote {
+  font-family: 'Poiret One', cursive;
+  margin-left: 2em;
+}
+
+.footer-contact-icons {
+  margin-right: 3em;
+}
