@@ -8,25 +8,25 @@ export default function Topbar() {
       <h1 className="name">Katrina Teitz</h1>
       <ul className="font-link">
         <li>
-          <a href="/home">Home</a>
+          <a className="link" href="/home">Home</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a className="link" href="/about">About</a>
         </li>
         <li>
-          <a href="/reels">Reels</a>
+          <a className="link" href="/reels">Reels</a>
         </li>
         <li>
-          <a href="/pictures">Pictures</a>
+          <a className="link" href="/pictures">Gallery</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a className="link" href="/contact">Contact</a>
         </li>
       </ul>
       <div className="contact-icons">
-      <Instagram />
-      <Twitter />
-      <Email />
+        <a className="icon" href="https://www.instagram.com/katrinateitz/?hl=en">
+          <Instagram  fontSize="large"/>
+        </a>
       </div>
     </nav>
   );
