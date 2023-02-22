@@ -15,8 +15,8 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <div className="picture-box">
-      <img className="contact-photo" src="../photos/pastelpaint5.png"></img>
-      <img className="contact-photo2" src="../photos/pastelpaint5.png"></img>
+      <img className="contact-photo" src="../photos/Blue water colours brushstroke.png"></img>
+      <img className="contact-photo2" src="../photos/Blue water colours brushstroke.png"></img>
         </div>
       {submitting && <div>Submtting Form...</div>}
       <form className="contact-form" onSubmit={handleSubmit}>
